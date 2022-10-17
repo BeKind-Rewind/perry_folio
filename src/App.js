@@ -1,23 +1,23 @@
+import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import About from './components/About'
+import Nav from './components/Nav'
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Hello!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/BeKind-Rewind"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Perry Portfolio
-        </a>
-      </header>
+    <div>
+      <Nav></Nav>
+      <About></About>
+      <Contact></Contact>
+      <Portfolio></Portfolio>
+      <Resume></Resume>
+      <Footer></Footer>
     </div>
   );
 }
