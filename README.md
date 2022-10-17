@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Perry Portfolio
+
+Hello! I am a full stack developer with experience in HTML, CSS, JavaScript, MERN stack (MongoDB, Express, React, Node), Bootstrap, IndexedDB/idb, and GraphQL, among others. 
+
+linked in: https://www.linkedin.com/in/amanda-perry-713b0955
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
