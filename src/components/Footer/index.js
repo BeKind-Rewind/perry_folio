@@ -3,7 +3,9 @@ import React from 'react';
 function Footer() {
   return (
     <section>
-      <p>Footer</p>
+      <a data-testid="link" href="/">
+        Footer
+      </a>
     </section>
   )
 }
