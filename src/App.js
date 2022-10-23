@@ -1,50 +1,51 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav'
-import Gallery from './components/Gallery';
+import About from './components/About/index';
+import Contact from './components/Contact/index';
+import Portfolio from './components/Portfolio/index';
+import Resume from './components/Resume/index';
 import Footer from './components/Footer';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   const [categories] = useState([
     {
-      name: "About me",
-      description:
-        "Who am I?",
+      name: "About"
     },
     {
-      name: "Contact",
-      description:
-        "Reach out:",
+      name: "Contact"
     },
     {
-      name: "Portfolio",
-      description:
-        "My developer works",
+      name: "Portfolio"
     },
     {
-      name: "Resumé",
-      description: "Download my resumé."
+      name: "Resumé"
     }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  const [contactSelected, setContactSelected] = useState(false);
-
   return (
-    <div>
-      <Nav categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
-      <main>
-        <Gallery currentCategory={currentCategory}></Gallery>
-      </main>
-      <Footer></Footer>
-    </div>
+    < BrowserRouter >
+      <div>
+        <Nav categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+        ></Nav>
+        <main>
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Portfolio" element={<Portfolio />} />
+            <Route path="/Resumé" element={<Resume />} />
+            <Route path="*" element={<About />} />
+          </Routes>
+        </main>
+        <Footer></Footer>
+      </div>
+    </BrowserRouter>
   );
 }
 

@@ -1,48 +1,72 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Project from '../Project';
+import NewsBuddyImg from '../../assets/images/NewsBuddy.png'
+import TrackerImg from '../../assets/images/Tracker.png'
+import AltSocButterflyImg from '../../assets/images/AltSocButterfly.png'
+import StaffGeneratorImg from '../../assets/images/StaffGenerator.png'
+import SchedulerImg from '../../assets/images/Scheduler.png'
+import JATEImg from '../../assets/images/JATE.png'
+
 
 function Portfolio() {
-  const projects = [
+  const [projects] = useState([
     {
-      name: "project1",
-      description: "Project 1"
+      title: 'News Buddy',
+      project: 'NewsBuddy',
+      url: '',
+      description: 'Doggo stress-reducer!',
+      image: NewsBuddyImg,
+      github: 'https://github.com/BeKind-Rewind/animal-app'
     },
     {
-      name: "project2",
-      description: "Project 2"
+      title: 'Employee Tracker',
+      project: 'Tracker',
+      url: '',
+      description: 'Org Chart',
+      image: TrackerImg,
+      github: 'https://github.com/BeKind-Rewind/subsequent-employee-tracker'
     },
     {
-      name: "project3",
-      description: "Project 3"
+      title: 'Alternative Social Butterfly',
+      project: 'AltSocButterfly',
+      url: '',
+      description: 'Post, Comment, Profile Img Upload',
+      image: AltSocButterflyImg,
+      github: 'https://github.com/BeKind-Rewind/alternative_social_app'
     },
     {
-      name: "project4",
-      description: "Project 4"
+      title: 'Staff Generator',
+      project: 'StaffGenerator',
+      url: '',
+      description: 'Manage Staff',
+      image: StaffGeneratorImg,
+      github: 'https://github.com/BeKind-Rewind/nonstop_squad_generator'
     },
     {
-      name: "project5",
-      description: "Project 5"
+      title: 'Work Day Scheduler',
+      project: 'Scheduler',
+      url: '',
+      description: 'Scheduler',
+      image: SchedulerImg,
+      github: 'https://github.com/BeKind-Rewind/schedule-gator'
     },
     {
-      name: "project6",
-      description: "Project 6"
+      title: 'Just Another Test Editor',
+      project: 'JATE',
+      url: '',
+      description: 'Downloadable text editor',
+      image: JATEImg,
+      github: 'https://github.com/BeKind-Rewind/urban_text_editor'
     }
-  ];
+  ]);
 
-  function projectSelected() {
-    console.log(`{project.name}`)
-  }
 
   return (
     <section>
       <h2>Some of my developer work:</h2>
 
       {projects.map((project) => (
-        <li className="mx-1" key={project.name}>
-          <span onClick={projectSelected}>
-            {/* setting a key for the outermost element (required) */}
-            {project.name}
-          </span>
-        </li>
+        <Project project={project} key={project.title} />
       ))}
     </section>
   )

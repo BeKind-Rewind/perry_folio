@@ -4,6 +4,9 @@ Hello! I am a full stack developer with experience in HTML, CSS, JavaScript, MER
 
 linked in: https://www.linkedin.com/in/amanda-perry-713b0955
 
+AltSocial: https://intense-stream-74213.herokuapp.com/
+News Buddy: https://bekind-rewind.github.io/animal-app/?
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

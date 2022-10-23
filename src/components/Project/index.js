@@ -1,24 +1,24 @@
 import React from "react";
-import { capitalizeFirstLetter } from '../../utils/helpers';
-import photo from "../../assets/small/project1/avo.jpeg";
+import GithubLogo from '../../assets/logo/github_icon.png';
 
-function Project() {
-  const currentProject = {
-    name: "project1",
-    description: "project1"
-  };
+
+const Project = ({ project }) => {
+  // const [currentProject, setCurrentProject] = useState();
+
   return (
-    <section>
-      <h1>{capitalizeFirstLetter(currentProject.name)}</h1>
-      <p>{capitalizeFirstLetter(currentProject.name)}</p>
-      <div>
-        <img
-          src={photo}
-          alt="avo"
-          className="img-thumbnail mx-1"
-        />
+    <div className="flex-row project-card">
+      <img
+        src={project.image}
+        alt={project.title}
+        className="img-thumbnail mx-1"
+      />
+      <div className="project-hover">
+        <a href={project.url}>{project.title}</a>
+        <a href={project.github}>{GithubLogo}</a>
+        <p>{project.description}</p>
       </div>
-    </section>
+    </div>
   );
-}
-export default { Project };
+};
+
+export default Project;
