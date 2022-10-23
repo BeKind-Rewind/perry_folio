@@ -4,6 +4,7 @@ import About from './components/About/index';
 import Contact from './components/Contact/index';
 import Portfolio from './components/Portfolio/index';
 import Resume from './components/Resume/index';
+import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -40,7 +41,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Portfolio" element={<Portfolio />} />
             <Route path="/Resumé" element={<Resume />} />
-            <Route path="*" element={<About />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer></Footer>

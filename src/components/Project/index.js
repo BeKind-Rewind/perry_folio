@@ -1,9 +1,11 @@
 import React from "react";
-import GithubLogo from '../../assets/logo/github_icon.png';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import GithubLogo from '../../assets/logo/github_icon.png';
 
 
 const Project = ({ project }) => {
-  // const [currentProject, setCurrentProject] = useState();
+
 
   return (
     <div className="flex-row project-card">
@@ -14,7 +16,7 @@ const Project = ({ project }) => {
       />
       <div className="project-hover">
         <a href={project.url}>{project.title}</a>
-        <a href={project.github}>{GithubLogo}</a>
+        <a href="https://github.com/BeKind-Rewind/{project.github}" target="blank" className="d-inline-flex mx-2"><FontAwesomeIcon icon={faGithub} size="4x" className="icon" /></a>
         <p>{project.description}</p>
       </div>
     </div>

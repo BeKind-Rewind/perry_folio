@@ -14,7 +14,7 @@ function Portfolio() {
       title: 'News Buddy',
       project: 'NewsBuddy',
       url: '',
-      description: 'Doggo stress-reducer!',
+      description: 'Web API',
       image: NewsBuddyImg,
       github: 'https://github.com/BeKind-Rewind/animal-app'
     },
