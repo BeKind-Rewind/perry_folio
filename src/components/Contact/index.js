@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import AOS from 'aos';
+import '../../../node_modules/aos/dist/aos.css';
 
 
 function Contact() {
+  AOS.init({
+    once: true
+  })
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
@@ -36,7 +41,18 @@ function Contact() {
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+      <div className='flex-row'>
+        <h1 className='contact'>Get in touch</h1>
+      </div>
+      <div className='badge-container'>
+        <div className='badge' data-aos='fade-right' data-aos-delay='500'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='400'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='300'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='200'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='100'></div>
+        <div className='badge' data-aos='fade-right'></div>
+      </div>
+
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

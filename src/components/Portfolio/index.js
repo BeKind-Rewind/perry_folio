@@ -6,9 +6,14 @@ import AltSocButterflyImg from '../../assets/images/AltSocButterfly.png'
 import StaffGeneratorImg from '../../assets/images/StaffGenerator.png'
 import SchedulerImg from '../../assets/images/Scheduler.png'
 import JATEImg from '../../assets/images/JATE.png'
+import AOS from 'aos';
+import '../../../node_modules/aos/dist/aos.css';
 
 
 function Portfolio() {
+  AOS.init({
+    once: true
+  })
   const [projects] = useState([
     {
       title: 'News Buddy',
@@ -63,7 +68,15 @@ function Portfolio() {
 
   return (
     <section>
-      <h2>Some of my developer work:</h2>
+      <h2 className='works'>Some of my developer work</h2>
+      <div className='badge-container'>
+        <div className='badge' data-aos='fade-right' data-aos-delay='500'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='400'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='300'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='200'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='100'></div>
+        <div className='badge' data-aos='fade-right'></div>
+      </div>
       <ul className='flex-row'>
         {projects.map((project) => (
           <Project project={project} key={project.title} />

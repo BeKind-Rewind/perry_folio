@@ -1,6 +1,11 @@
 import React from 'react';
+import AOS from 'aos';
+import '../../../node_modules/aos/dist/aos.css';
 
 function Proficiencies() {
+  AOS.init({
+    once: true
+  })
   // Function will execute on click of button
   const onButtonClick = () => {
     // using Java Script method to get PDF file
@@ -21,6 +26,14 @@ function Proficiencies() {
   return (
     <section>
       <h2 className="bodyOfWork">Resume</h2>
+      <div className='badge-container'>
+        <div className='badge' data-aos='fade-right' data-aos-delay='500'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='400'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='300'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='200'></div>
+        <div className='badge' data-aos='fade-right' data-aos-delay='100'></div>
+        <div className='badge' data-aos='fade-right'></div>
+      </div>
       <button onClick={onButtonClick}>
         Download PDF
       </button>
