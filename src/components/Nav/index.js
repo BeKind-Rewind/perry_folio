@@ -18,11 +18,11 @@ function Nav(props) {
 
   return (
     <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
+      <h1>
+        <a className="title flex-row px-2" href="/">
           Amanda Perry
         </a>
-      </h2>
+      </h1>
       <nav>
         <ul className="flex-row">
           {categories.map((category) => (
@@ -45,7 +45,5 @@ function Nav(props) {
     </header>
   );
 }
-
-/* <span role="img" aria-label="camera"> 📸</span> */
 
 export default Nav;

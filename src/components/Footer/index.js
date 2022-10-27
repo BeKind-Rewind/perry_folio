@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Footer() {
   return (
-    <div className="d-flex justify-content-center fixed-bottom">
+    <div className="footer d-flex fixed-bottom">
       <a href="https://www.facebook.com/Challenge641" target="blank" className="d-inline-flex mx-2"><FontAwesomeIcon icon={faFacebook} size="4x" className="icon" /></a>
       <a href="https://www.instagram.com/pieceinourtime/" target="blank" className="d-inline-flex mx-2"><FontAwesomeIcon icon={faInstagram} size="4x" className="icon" /></a>
       <a href="https://www.linkedin.com/in/amanda-perry-713b0955" target="blank" className="d-inline-flex mx-2"><FontAwesomeIcon icon={faLinkedin} size="4x" className="icon" /></a>
