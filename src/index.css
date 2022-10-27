@@ -5,7 +5,7 @@ main {
 }
 
 :root {
-  --primary: #a4ffd3;
+  --primary: #a4ffeb;
   --secondary: #c6c5b9;
   --tertiary: #ffc98b;
   --light: #fdfdff;
@@ -36,7 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--darker);
   color: var(--light);
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Damascus;
   ;
 
 }
@@ -47,8 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  ;
+  font-family: Damascus;
   font-weight: 00;
   margin: 5px 0;
   line-height: 1.25;
@@ -84,9 +83,9 @@ p {
 }
 
 .title {
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  ;
-  font-size: 4rem;
+  font-family: Damascus;
+  color: var(--light);
+  font-size: 3rem;
 }
 
 a {
@@ -102,7 +101,7 @@ a:hover {
 
 header {
   background-image: url("./assets/logo/leaflets.jpeg");
-  background-position: 60%;
+  background-position: 60% 47%;
   padding: 20px 20px;
 }
 
