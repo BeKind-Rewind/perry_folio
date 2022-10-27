@@ -1,8 +1,6 @@
 import React from "react";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import GithubLogo from '../../assets/logo/github_icon.png';
-
 
 const Project = ({ project }) => {
 
