@@ -1,11 +1,10 @@
 # Perry Portfolio
 
-Hello! I am a full stack developer with experience in HTML, CSS, JavaScript, MERN stack (MongoDB, Express, React, Node), Bootstrap, IndexedDB/idb, and GraphQL, among others. 
+Hello! I love learning new tech.
 
-linked in: https://www.linkedin.com/in/amanda-perry-713b0955
+I am a full stack developer with experience in HTML, CSS, JavaScript, MERN stack (MongoDB, Express, React, Node), Bootstrap, IndexedDB/idb, and GraphQL, among others. 
 
-AltSocial: https://intense-stream-74213.herokuapp.com/
-News Buddy: https://bekind-rewind.github.io/animal-app/?
+
 
 ## Getting Started with Create React App
 
