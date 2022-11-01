@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio/index';
 import Resume from './components/Resume/index';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    < BrowserRouter basename="/perry_folio">
+    < HashRouter basename="/perry_folio">
       <div>
         <Nav categories={categories}
           setCurrentCategory={setCurrentCategory}
