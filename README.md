@@ -16,7 +16,10 @@ I am a full stack developer with experience in HTML, CSS, JavaScript, MERN stack
 
 ## Screenshots
 
-
+![About](./src/assets/images/screenshot_about.png)
+![Contact](./src/assets/images/screenshot_contact.png)
+![Portfolio](./src/assets/images/screenshot_portfolio.png)
+![Resume](./src/assets/images/screenshot_resume.png)
 
 
 ## Start
@@ -94,7 +97,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Link
 
 Deployed Application:
-https://bekind-rewind.github.io/
+https://bekind-rewind.github.io/perry_folio/
 
 heroku
 https://ancient-sierra-64143.herokuapp.com/
