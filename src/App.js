@@ -28,7 +28,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    < BrowserRouter >
+    < BrowserRouter basename="/perry_folio">
       <div>
         <Nav categories={categories}
           setCurrentCategory={setCurrentCategory}
@@ -37,6 +37,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<About />} />
+            <Route path="/Home" element={<About />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Portfolio" element={<Portfolio />} />

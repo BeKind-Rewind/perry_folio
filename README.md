@@ -5,12 +5,26 @@ Hello! I love learning new tech.
 I am a full stack developer with experience in HTML, CSS, JavaScript, MERN stack (MongoDB, Express, React, Node), Bootstrap, IndexedDB/idb, and GraphQL, among others. 
 
 
+## Table of Contents
+  - [Screenshots](#screenshots)
+  - [Start](#start)
+  - [Scripts](#scripts)
+  - [](#)
+  - [](#)
+  - [Questions](#questions)
+  - [License](#license)
 
-## Getting Started with Create React App
+## Screenshots
+
+
+
+
+## Start
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts
 
 In the project directory, you can run:
 
@@ -76,3 +90,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Link
+
+Deployed Application:
+https://bekind-rewind.github.io/
+
+heroku
+https://ancient-sierra-64143.herokuapp.com/
+
+## Questions
+
+Have questions?
+You can find me on GitHub:
+https://github.com/BeKind-Rewind
+
+Or email me at:
+challenge641@gmail.com
+
+
+## License
+
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
+    
