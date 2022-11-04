@@ -4,9 +4,9 @@ import About from './components/About/index';
 import Contact from './components/Contact/index';
 import Portfolio from './components/Portfolio/index';
 import Resume from './components/Resume/index';
-import NotFound from './components/NotFound';
+// import NotFound from './components/NotFound';
 import Footer from './components/Footer';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    < HashRouter basename="/perry_folio">
+    < BrowserRouter basename="/perry_folio">
       <div>
         <Nav categories={categories}
           setCurrentCategory={setCurrentCategory}
@@ -42,12 +42,12 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Portfolio" element={<Portfolio />} />
             <Route path="/Resumé" element={<Resume />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<About />} />
           </Routes>
         </main>
         <Footer></Footer>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

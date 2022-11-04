@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Project from '../Project';
+import TooGoodToWasteImg from '../../assets/images/TooGoodToWaste.png'
 import NewsBuddyImg from '../../assets/images/NewsBuddy.png'
 import TrackerImg from '../../assets/images/Tracker.png'
 import AltSocButterflyImg from '../../assets/images/AltSocButterfly.png'
@@ -15,6 +16,14 @@ function Portfolio() {
     once: true
   })
   const [projects] = useState([
+    {
+      title: 'Too Good To Waste',
+      project: 'TooGoodToWaste',
+      url: 'https://ancient-ocean-76067.herokuapp.com/',
+      description: 'MERN stack app',
+      image: TooGoodToWasteImg,
+      github: 'https://github.com/dmadon/too-good-to-waste/tree/main'
+    },
     {
       title: 'News Buddy',
       project: 'NewsBuddy',
