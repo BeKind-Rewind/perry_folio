@@ -2,7 +2,7 @@
 
 Hello! I love learning new tech.
 
-I am a full stack developer with experience in HTML, CSS, JavaScript, MERN stack (MongoDB, Express, React, Node), Bootstrap, IndexedDB/idb, and GraphQL, among others. 
+I am a full stack developer with experience in HTML, CSS, JavaScript, MERN stack (MongoDB, Express, React, Node), Bootstrap, and IndexedDB/idb among others. 
 
 
 ## Table of Contents
@@ -99,8 +99,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Deployed Application:
 https://bekind-rewind.github.io/perry_folio/
 
-heroku
-https://ancient-sierra-64143.herokuapp.com/
 
 ## Questions
 

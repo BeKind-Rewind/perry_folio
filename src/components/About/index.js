@@ -31,11 +31,13 @@ function About() {
         </div>
 
         <div className='flex-row'>
-          <p> I am a full stack developer with experience in HTML, CSS, JavaScript, Bootstrap, MongoDB, Express.js, React.js, Node.js, IndexedDB, idb, MySQL, Sequelize and GraphQL. </p>
+          <p> I am a full stack developer with experience in HTML, CSS, JavaScript, Bootstrap, Express.js, React.js, Node.js, IndexedDB, MySQL, Sequelize, Mongoose and MongoDB. </p>
           <br />
-          <p> I studied at The Ohio State University where I was also named BigTen All-American and in 2021 was inducted into The Ohio State University Athletics Hall of Fame. </p>
+          <p> I studied at The Ohio State University where I was also named BigTen All-American and in 2021 was inducted into The Ohio State University Athletics Hall of Fame.
+            I've spent twenty-two years competitively in the sport and continue to bring those many lessons of dedication, teamwork, management, and fearless persuit of success
+            to the other aspects of my life (while having fun!).</p>
           <br />
-          <p> "To Thine Own Self Be True" is a motto I live and work by: intentional, honest practice in the subject, no matter the medium, is the key to finding success!</p>
+          <p> “Always find opportunities to make someone smile, and to offer random acts of kindness in everyday life.” — Roy T. Bennett </p>
         </div>
       </div>
     </section>
