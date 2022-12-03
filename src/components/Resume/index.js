@@ -6,22 +6,6 @@ function Proficiencies() {
   AOS.init({
     once: true
   })
-  // Function will execute on click of button
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch('Perry_Resume.pdf').then(response => {
-      response.blob().then(blob => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = 'Perry_Resume.pdf';
-        alink.click();
-      })
-    })
-  }
-
 
   return (
     <section>
@@ -34,9 +18,9 @@ function Proficiencies() {
         <div className='badge' data-aos='fade-right' data-aos-delay='100'></div>
         <div className='badge' data-aos='fade-right'></div>
       </div>
-      <button onClick={onButtonClick}>
-        Download PDF
-      </button>
+      <a href="https://docs.google.com/document/d/1-t7I3CEBefaZVAIUOHCklmxDTMMsguly/edit?usp=sharing&ouid=113213651861629897307&rtpof=true&sd=true" target="_blank" rel="noreferrer">
+        <button className="bg-gradient-to-r from-violet-400 via-pink-400 to-sky-400 text-white font-medium py-2 rounded-full w-32 animate-pulse ">Resume Link</button>
+      </a>
 
       <h2 className="proficiencies">Front-End Proficiencies</h2>
       <ul className="skillList">
