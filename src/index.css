@@ -352,3 +352,11 @@ a {
   font-size: 3em;
   border-radius: 100%;
 }
+
+
+@media (min-width: 768px) {
+  .project-card {
+    height: 200px;
+    width: 100%
+  }
+}
