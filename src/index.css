@@ -354,9 +354,9 @@ a {
 }
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .project-card {
     height: 200px;
     width: 100%
   }
-}
+} */
