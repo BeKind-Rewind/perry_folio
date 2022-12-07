@@ -21,7 +21,7 @@ function About() {
         <div className='badge' data-aos='fade-right' data-aos-delay='100'></div>
         <div className='badge' data-aos='fade-right'></div>
       </div>
-      <div className='flex-row'>
+      <div className='flex-row' id="portrait">
         <div>
           <img
             src={Portrait}
@@ -30,7 +30,7 @@ function About() {
           />
         </div>
 
-        <div className='flex-row'>
+        <div className='flex-row' id="about">
           <p> I am a full stack developer with experience in HTML, CSS, JavaScript, Bootstrap, Express.js, React.js, Node.js, IndexedDB, MySQL, Sequelize, Mongoose and MongoDB. </p>
           <br />
           <p> I studied at The Ohio State University where I was also named BigTen All-American and in 2021 was inducted into The Ohio State University Athletics Hall of Fame.

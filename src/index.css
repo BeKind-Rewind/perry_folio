@@ -201,6 +201,15 @@ textarea {
   flex-wrap: wrap;
 }
 
+/* 
+#portrait {
+  width: auto;
+} */
+
+/* #about {
+  width: 50%;
+} */
+
 .space-between {
   justify-content: space-between;
 }
