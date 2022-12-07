@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/perry_folio/static/css/main.ee027688.css",
-    "main.js": "/perry_folio/static/js/main.0a6de2eb.js",
+    "main.js": "/perry_folio/static/js/main.abafcb0d.js",
     "static/media/leaflets.jpeg": "/perry_folio/static/media/leaflets.830d11ccb74de970dbd6.jpeg",
     "static/media/Tracker.png": "/perry_folio/static/media/Tracker.84a9302b1c17b3547cf7.png",
     "static/media/NewsBuddy.png": "/perry_folio/static/media/NewsBuddy.1e3c8394f2ff9a5ccf00.png",
+    "static/media/headshot.JPG": "/perry_folio/static/media/headshot.3f96ecd2b9ae4d0bbe76.JPG",
     "static/media/TooGoodToWaste.png": "/perry_folio/static/media/TooGoodToWaste.6aa7321aa5d267fade8d.png",
     "static/media/JATE.png": "/perry_folio/static/media/JATE.ef8ae9b58b11287fb455.png",
     "static/media/AltSocButterfly.png": "/perry_folio/static/media/AltSocButterfly.639ffe347054079ae406.png",
     "static/media/StaffGenerator.png": "/perry_folio/static/media/StaffGenerator.62e6f1237d84fe34a7a2.png",
     "static/media/Scheduler.png": "/perry_folio/static/media/Scheduler.86e58c184fa7e6ccbf00.png",
-    "static/media/headshot.JPG": "/perry_folio/static/media/headshot.c65ef5ec78a77979ed59.JPG",
     "index.html": "/perry_folio/index.html",
     "main.ee027688.css.map": "/perry_folio/static/css/main.ee027688.css.map",
-    "main.0a6de2eb.js.map": "/perry_folio/static/js/main.0a6de2eb.js.map"
+    "main.abafcb0d.js.map": "/perry_folio/static/js/main.abafcb0d.js.map"
   },
   "entrypoints": [
     "static/css/main.ee027688.css",
-    "static/js/main.0a6de2eb.js"
+    "static/js/main.abafcb0d.js"
   ]
 }
