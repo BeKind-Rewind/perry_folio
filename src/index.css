@@ -38,8 +38,6 @@ body {
   background: var(--darker);
   color: var(--light);
   font-family: Damascus;
-  ;
-
 }
 
 h1,
@@ -141,9 +139,9 @@ button[disabled] {
 
 .portrait {
   border: 0px;
-  border-radius: 100px;
-  height: 100%;
-  width: 60%;
+  border-radius: 200px;
+  height: auto;
+  width: 100%;
 }
 
 span[role="img"] {
@@ -198,17 +196,19 @@ textarea {
 
 .flex-row {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
 }
 
-/* 
-#portrait {
-  width: auto;
-} */
 
-/* #about {
+#portrait {
+  height: auto;
+  width: 30%;
+}
+
+#about {
   width: 50%;
-} */
+}
 
 .space-between {
   justify-content: space-between;

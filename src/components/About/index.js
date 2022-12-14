@@ -21,8 +21,8 @@ function About() {
         <div className='badge' data-aos='fade-right' data-aos-delay='100'></div>
         <div className='badge' data-aos='fade-right'></div>
       </div>
-      <div className='flex-row' id="portrait">
-        <div>
+      <div className='flex-row' id='info-box'>
+        <div id='portrait'>
           <img
             src={Portrait}
             alt="Portrait"
@@ -30,14 +30,27 @@ function About() {
           />
         </div>
 
-        <div className='flex-row' id="about">
-          <p> I am a full stack developer with experience in HTML, CSS, JavaScript, Bootstrap, Express.js, React.js, Node.js, IndexedDB, MySQL, Sequelize, Mongoose and MongoDB. </p>
+        <div className='bio' id='about'>
+          <p> I am a full stack web developer in Dallas, TX with experience in HTML5, CSS, JavaScript, Bootstrap, Express.js,
+            React.js, Node.js, IndexedDB, MySQL, Sequelize, Mongoose and MongoDB.
+          </p>
           <br />
-          <p> I studied at The Ohio State University where I was also named BigTen All-American and in 2021 was inducted into The Ohio State University Athletics Hall of Fame.
-            I've spent twenty-two years competitively in the sport and continue to bring those many lessons of dedication, teamwork, management, and fearless persuit of success
-            to the other aspects of my life (while having fun!).</p>
+          <p>
+            <strong>Education</strong>
+            Recently, I graduated from Southern Methodist University's Full Stack Bootcamp where I juggled the rigors and challenges of a fast-paced
+            tech environment, learning new skills and working in groups, in tandem with a full-time job as a career competitive rowing coach.
+            In undergrad, I studied Music Education and was a Varsity rower at The Ohio State University.
+          </p>
+          <p>
+            <strong>Educator, Musician, & Athlete</strong>
+            This is also where I decided to try something different and walked-on to the women's varsity rowing team. I found a great deal of
+            success as a student-athlete (BigTen All-American and 2021 Athletics Hall of Fame.). The experience was exceptionally demanding and
+            exponentially rewarding!
+          </p>
           <br />
-          <p> “Always find opportunities to make someone smile, and to offer random acts of kindness in everyday life.” — Roy T. Bennett </p>
+          <p>
+            “Always find opportunities to make someone smile, and to offer random acts of kindness in everyday life.” — Roy T. Bennett
+          </p>
         </div>
       </div>
     </section>
