@@ -36,13 +36,13 @@ function About() {
           </p>
           <br />
           <p>
-            <strong>Education</strong>
+            Education:
             Recently, I graduated from Southern Methodist University's Full Stack Bootcamp where I juggled the rigors and challenges of a fast-paced
             tech environment, learning new skills and working in groups, in tandem with a full-time job as a career competitive rowing coach.
             In undergrad, I studied Music Education and was a Varsity rower at The Ohio State University.
           </p>
           <p>
-            <strong>Educator, Musician, & Athlete</strong>
+            Educator, Musician, & Athlete:
             This is also where I decided to try something different and walked-on to the women's varsity rowing team. I found a great deal of
             success as a student-athlete (BigTen All-American and 2021 Athletics Hall of Fame.). The experience was exceptionally demanding and
             exponentially rewarding!
