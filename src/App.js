@@ -28,7 +28,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    < BrowserRouter basename="/perry_folio">
+    < BrowserRouter basename="/perry-folio">
       <div>
         <Nav categories={categories}
           setCurrentCategory={setCurrentCategory}
