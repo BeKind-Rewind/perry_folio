@@ -97,7 +97,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Link
 
 Deployed Application:
-https://bekind-rewind.github.io/perry_folio/
+https://perry-folio.herokuapp.com/
 
 
 ## Questions
