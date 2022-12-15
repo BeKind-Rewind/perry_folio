@@ -10,8 +10,8 @@ function About() {
   });
   return (
     <section className="my-5">
-      <div className='flex-row about'>
-        <h1 className='about'>About Me</h1>
+      <div className='flex-row'>
+        <h1 className='about-me'>About Me</h1>
       </div>
       <div className='badge-container'>
         <div className='badge' data-aos='fade-right' data-aos-delay='500'></div>
