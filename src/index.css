@@ -144,6 +144,21 @@ button[disabled] {
   width: 100%;
 }
 
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+
+#portrait {
+  height: auto;
+  width: 45%;
+}
+
+#about {
+  width: 45%;
+}
+
 span[role="img"] {
   cursor: default;
 }
@@ -194,21 +209,6 @@ textarea {
   margin-right: auto;
 }
 
-.flex-row {
-  display: flex;
-  justify-content: space-around;
-  /* flex-wrap: wrap; */
-}
-
-
-#portrait {
-  height: auto;
-  width: 30%;
-}
-
-#about {
-  width: 50%;
-}
 
 .space-between {
   justify-content: space-between;

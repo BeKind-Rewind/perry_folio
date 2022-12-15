@@ -52,6 +52,9 @@ function Contact() {
         <div className='badge' data-aos='fade-right' data-aos-delay='100'></div>
         <div className='badge' data-aos='fade-right'></div>
       </div>
+      <div className='email'>
+        <button className='bg-gradient-to-r from-violet-400 via-pink-400 to-sky-400 text-white font-medium py-2 rounded-full w-32 animate-pulse'>Dev.Amanda.Perry@gmail.com</button>
+      </div>
 
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
