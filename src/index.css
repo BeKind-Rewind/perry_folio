@@ -47,7 +47,6 @@ h4,
 h5,
 h6 {
   font-family: Damascus;
-  font-weight: 00;
   margin: 5px 0;
   line-height: 1.25;
 }
@@ -101,7 +100,8 @@ a:hover {
 header {
   background-image: url("./assets/logo/leaflets.jpeg");
   background-position: 80% 60%;
-  padding: 20px 20px;
+  margin: 0 auto;
+  padding: 50px 50px;
 }
 
 header a {
@@ -116,7 +116,6 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
   background-color: var(--secondary);
 }
 
@@ -127,14 +126,6 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: .8;
-}
-
-.about,
-.contact,
-.bodyOfWork,
-.works {
-  align-content: flex-end;
-  color: var(--tertiary);
 }
 
 .portrait {
@@ -149,6 +140,15 @@ button[disabled] {
   justify-content: space-around;
   /* flex-wrap: wrap; */
 }
+
+.about-me,
+.contact,
+.bodyOfWork,
+.works {
+  display: block;
+  color: var(--tertiary);
+}
+
 
 #portrait {
   height: auto;
@@ -352,13 +352,12 @@ a {
 .badge {
   width: 50px;
   height: 50px;
-  margin: 50px auto;
-  display: flex;
-  justify-content: center;
+  margin: 20px auto 50px auto;
+  /* display: flex; */
   align-items: center;
   background: var(--tertiary);
   color: #ffffff;
-  font-size: 3em;
+  font-size: 2em;
   border-radius: 100%;
 }
 

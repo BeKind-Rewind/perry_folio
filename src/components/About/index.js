@@ -9,8 +9,8 @@ function About() {
     once: true
   });
   return (
-    <section className="my-5">
-      <div className='flex-row'>
+    <section>
+      <div>
         <h1 className='about-me'>About Me</h1>
       </div>
       <div className='badge-container'>

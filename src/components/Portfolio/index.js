@@ -77,7 +77,7 @@ function Portfolio() {
 
   return (
     <section>
-      <h2 className='works'>Some of my developer work</h2>
+      <h1 className='works'>Some of my developer work</h1>
       <div className='badge-container'>
         <div className='badge' data-aos='fade-right' data-aos-delay='500'></div>
         <div className='badge' data-aos='fade-right' data-aos-delay='400'></div>
