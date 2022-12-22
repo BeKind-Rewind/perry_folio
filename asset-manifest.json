@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/perry_folio/static/css/main.b258d573.css",
-    "main.js": "/perry_folio/static/js/main.99444caf.js",
+    "main.css": "/perry_folio/static/css/main.e3eadb76.css",
+    "main.js": "/perry_folio/static/js/main.a77273bc.js",
     "static/media/leaflets.jpeg": "/perry_folio/static/media/leaflets.830d11ccb74de970dbd6.jpeg",
     "static/media/Tracker.png": "/perry_folio/static/media/Tracker.84a9302b1c17b3547cf7.png",
     "static/media/NewsBuddy.png": "/perry_folio/static/media/NewsBuddy.1e3c8394f2ff9a5ccf00.png",
@@ -12,11 +12,11 @@
     "static/media/StaffGenerator.png": "/perry_folio/static/media/StaffGenerator.62e6f1237d84fe34a7a2.png",
     "static/media/Scheduler.png": "/perry_folio/static/media/Scheduler.86e58c184fa7e6ccbf00.png",
     "index.html": "/perry_folio/index.html",
-    "main.b258d573.css.map": "/perry_folio/static/css/main.b258d573.css.map",
-    "main.99444caf.js.map": "/perry_folio/static/js/main.99444caf.js.map"
+    "main.e3eadb76.css.map": "/perry_folio/static/css/main.e3eadb76.css.map",
+    "main.a77273bc.js.map": "/perry_folio/static/js/main.a77273bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.b258d573.css",
-    "static/js/main.99444caf.js"
+    "static/css/main.e3eadb76.css",
+    "static/js/main.a77273bc.js"
   ]
 }
