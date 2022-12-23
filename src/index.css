@@ -257,6 +257,10 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .card {
   width: 25%;
   justify-content: space-around;

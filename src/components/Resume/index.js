@@ -19,8 +19,9 @@ function Proficiencies() {
         <div className='badge' data-aos='fade-right'></div>
       </div>
       <a href="https://docs.google.com/document/d/1-t7I3CEBefaZVAIUOHCklmxDTMMsguly/edit?usp=sharing&ouid=113213651861629897307&rtpof=true&sd=true" target="_blank" rel="noreferrer">
-        <button className="bg-gradient-to-r from-violet-400 via-pink-400 to-sky-400 text-white font-medium py-2 rounded-full w-32 animate-pulse">Resume Link</button>
+        <button className="rounded-full">Download my resume</button>
       </a>
+
 
       <h3 className="proficiencies">Front-End Proficiencies</h3>
       <ul className="skillList">

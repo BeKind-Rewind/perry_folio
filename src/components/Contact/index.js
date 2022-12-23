@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ButtonMailto from '../MailTo';
 import { validateEmail } from '../../utils/helpers';
 import AOS from 'aos';
 import '../../../node_modules/aos/dist/aos.css';
@@ -41,7 +42,7 @@ function Contact() {
 
   return (
     <section>
-      <div className='flex-row'>
+      <div>
         <h1 className='contact'>Get in touch</h1>
       </div>
       <div className='badge-container'>
@@ -53,9 +54,13 @@ function Contact() {
         <div className='badge' data-aos='fade-right'></div>
       </div>
       <div className='email'>
-        <button className='bg-gradient-to-r from-violet-400 via-pink-400 to-sky-400 text-white font-medium py-2 rounded-full w-32 animate-pulse'>Dev.Amanda.Perry@gmail.com</button>
+        <ButtonMailto label="Click HERE to email me" mailto="mailto:Dev.Amanda.Perry@gmail.com" />
       </div>
-
+      <br />
+      <div>
+        <p>Or use the form below!</p>
+      </div>
+      <br />
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

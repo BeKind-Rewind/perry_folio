@@ -19,15 +19,15 @@ function Portfolio() {
     {
       title: 'Too Good To Waste',
       project: 'TooGoodToWaste',
-      url: 'https://ancient-ocean-76067.herokuapp.com/',
-      description: 'MERN stack app',
+      url: 'https://too-good-2-waste.herokuapp.com/',
+      description: 'MERN app',
       image: TooGoodToWasteImg,
       github: 'https://github.com/dmadon/too-good-to-waste/tree/main'
     },
     {
       title: 'News Buddy',
       project: 'NewsBuddy',
-      url: 'https://bekind-rewind.github.io/animal-app/',
+      url: 'https://bekind-rewind.github.io/news-buddy/',
       description: 'Web API',
       image: NewsBuddyImg,
       github: 'https://github.com/BeKind-Rewind/animal-app'
@@ -86,7 +86,7 @@ function Portfolio() {
         <div className='badge' data-aos='fade-right' data-aos-delay='100'></div>
         <div className='badge' data-aos='fade-right'></div>
       </div>
-      <ul className='flex-row'>
+      <ul className='flex-row wrap'>
         {projects.map((project) => (
           <Project project={project} key={project.title} />
         ))}
